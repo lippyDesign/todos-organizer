@@ -1,0 +1,131 @@
+body {
+    background: rgb(75, 93, 87);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(3, 155, 229, 0.5);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(3, 155, 229, 0.5);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(3, 155, 229, 0.5);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(3, 155, 229, 0.5);
+}
+#toast-container {
+    background: deeppink;
+}
+.centered {
+    text-align: center;
+}
+.colorWhite {
+    color: white;
+}
+.dashboardPage {
+    background: rgb(176, 188, 295);
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+.new-task, .inputForm {
+    background: rgb(247,239, 218);
+    padding: 20px;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+}
+.inputForm {
+    margin-top: 5px;
+}
+.notCompleted {
+    background: rgb(247,239, 218);
+    padding: 5px;
+    margin-top: 5px;
+}
+.completed {
+    background: lightgray;
+    text-decoration: line-through;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+.taskPriority {
+    font-size: 12px;
+    text-align: right
+}
+.isInvisible {
+    visibility: hidden;
+}
+.hideButtonTittle {
+    margin:0;
+}
+#hideCompletedDivi {
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+.hamburgerMenuIcon a {
+    height: 50px;
+    margin-right: 7px;
+    padding-left: 5px;
+    padding-top: -10px;
+    padding-right: 5px;
+}
+.hamburgerMenuIcon a i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+.mobileNavi {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 88%;
+    height: 10000px;
+    visibility: visible;
+    opacity: 1;
+    background: rgba(255, 251, 255, 1);
+}
+.mobileNavi li {
+    font-weight: bold;
+}
+.mobileNavi li a {
+    color: white;
+}
+.theSpina {
+    position: relative;
+    top: 50%;
+    left: 48%;
+}
+.prioritySelContainer {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.prioritySel {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.prioritySel a {
+    font-size: 22px;
+    cursor: pointer;
+}
+.priorityActive {
+    background: rgb(38, 166, 154);
+    border-radius: 50%;
+}
+.priorityActive a {
+    color: white;
+}
+.privacySection {
+    border-bottom: 1px solid gray;
+}
+.singleTaskBox {
+    margin-bottom: 15px;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+}
+.controlButton {
+    margin-left: 5px;
+}
